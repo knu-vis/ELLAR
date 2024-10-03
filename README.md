@@ -19,7 +19,7 @@ In this research, we address the challenging problem of action recognition in ex
 
 <img width="1151" alt="fig2" src="https://github.com/user-attachments/assets/cb30b116-e344-4df4-9e10-9d944aa9c5e1">
 
-This dataset is divided into two parts based on the illumination of the locations: low-light (LL) and extremely low-light (ELL). The LL part is captured at three outdoor locations under low-light conditions and the ELL part is recorded at two extremely low-light indoor settings. You can download the ELLAR dataset from [here](http://gofile.me/7cPY4/TVPps3XL8), both videos and annotation files.
+This dataset is divided into two parts based on the illumination of the locations: low-light (LL) and extremely low-light (ELL). The LL part is captured at three outdoor locations under low-light conditions and the ELL part is recorded at two extremely low-light indoor settings. 
 
 ## Model and experimental results
 
@@ -38,7 +38,7 @@ The core idea of **DGAM(Dual Gamma Adaptive Modulation)** is its dual Mixture of
 | Video-Swin-B   | K400       | 3×32×224²       | 35.03  | 68.87  |
 | **DGAM (Ours)**| K400       | 3×32×224²       | **38.42** | **74.44** |
 
-Our method is pretrained by Kinetics400, and finetuned by ELLAR dataset. You can download the checkpoint pth file in [here](http://gofile.me/7cPY4/yu2u18Etb). 
+Our method is pretrained by Kinetics400, and finetuned by ELLAR dataset. You can download the checkpoint pth file (`DGAM_ELLAR.pth`) in [here](http://gofile.me/7cPY4/yu2u18Etb). 
 
 The config file format is following mmaction2. The config file for DGAM is already located in `./configs/recognition/swin/hydra_config.py`.    
 
@@ -53,6 +53,8 @@ Please refer to [mmaction2](https://github.com/open-mmlab/mmaction2) and [Video 
 
 
 ####  Data Preparation
+
+You can download the ELLAR dataset from [here](http://gofile.me/7cPY4/TVPps3XL8), both videos and annotation files.
 
 Expected Data Directory Structure:
 ```
