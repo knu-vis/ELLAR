@@ -1,4 +1,4 @@
-# ELLAR: An Action Recognition Dataset for Extremely Low-Light Conditions with Dual Gamma Adaptive Modulation
+# ELLAR: An Action Recognition Dataset for Extremely Low-Light Conditions with Dual Gamma Adaptive Modulation [draft]
 
 ### Introductions
 <img width="1105" alt="fig1 (1)" src="https://github.com/user-attachments/assets/5cc60403-c6f6-4b47-a924-09fd6600fa34">
