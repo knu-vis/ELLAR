@@ -52,7 +52,7 @@ The config file format is following mmaction2. The config file for DGAM is alrea
 Please refer to [mmaction2](https://github.com/open-mmlab/mmaction2) and [Video Swin Transformer](https://github.com/SwinTransformer/Video-Swin-Transformer) setup for installation.
 
 
-####  Data Preparation
+###  Data Preparation
 
 You can download the ELLAR dataset from [here](http://gofile.me/7cPY4/TVPps3XL8), both videos and annotation files.
 
