@@ -51,6 +51,8 @@ The config file format is following mmaction2. The config file for DGAM is alrea
 
 Please refer to [mmaction2](https://github.com/open-mmlab/mmaction2) and [Video Swin Transformer](https://github.com/SwinTransformer/Video-Swin-Transformer) setup for installation.
 
+Detailed installation instructions will be updated soon.
+
 
 ###  Data Preparation
 
