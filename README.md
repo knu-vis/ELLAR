@@ -29,7 +29,7 @@ The core idea of **DGAM(Dual Gamma Adaptive Modulation)** is its dual Mixture of
 
 ### Results
 
-Comparison on ELLAR Dataset. It is pretrained by Kinetics400, and finetuned by ELLAR dataset. You can download the checkpoint pth file in [here](http://gofile.me/7cPY4/yu2u18Etb). 
+Comparison on ELLAR Dataset. Our method is pretrained by Kinetics400, and finetuned by ELLAR dataset. You can download the checkpoint pth file in [here](http://gofile.me/7cPY4/yu2u18Etb). 
 
 The config file format is following mmaction2. The config file for DGAM is already located in `./configs/recognition/swin/hydra_config.py`.    
 
