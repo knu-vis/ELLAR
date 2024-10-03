@@ -3,7 +3,7 @@
 By [Minse Ha](https://github.com/haminse/)\*, [Wan-Gi Bae](https://github.com/wangiid_TBA)\*, [Geunyoung Bae](https://github.com/flora101), and [Jong Taek Lee](https://scholar.google.com/citations?hl=en&user=NZ55Q-AAAAAJ).
 
 
-This repo is the official implementation of ["ELLAR: An Action Recognition Dataset for Extremely Low-Light Conditions with Dual Gamma Adaptive Modulation"](paper_link_TBA). It is based on [mmaction2](https://github.com/open-mmlab/mmaction2) and [Video Swin Transformer](https://github.com/SwinTransformer/Video-Swin-Transformer).
+This repository is the official implementation of ["ELLAR: An Action Recognition Dataset for Extremely Low-Light Conditions with Dual Gamma Adaptive Modulation"](paper_link_TBA). It is based on [mmaction2](https://github.com/open-mmlab/mmaction2) and [Video Swin Transformer](https://github.com/SwinTransformer/Video-Swin-Transformer).
 
 
 
