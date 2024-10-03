@@ -5,9 +5,10 @@ By [Minse Ha](https://github.com/haminse/)\*, [Wan-Gi Bae](https://github.com/wa
 
 This repo is the official implementation of ["ELLAR: An Action Recognition Dataset for Extremely Low-Light Conditions with Dual Gamma Adaptive Modulation"](paper_link_TBA). It is based on [mmaction2](https://github.com/open-mmlab/mmaction2) and [Video Swin Transformer](https://github.com/SwinTransformer/Video-Swin-Transformer).
 
-## Updates
 
-***10/03/2024*** Initial commits
+
+## Updates
+***10/03/2024*** Initial commits | Project page is now available at [here](https://sites.google.com/view/knu-ellar/).
 
 ## About
 In this research, we address the challenging problem of action recognition in extremely low-light environments. Currently, available datasets built under low-light settings are not truly representative of  extremely dark conditions because they have a sufficient signal-to-noise ratio, making them visible with simple low-light image enhancement methods. Due to the lack of datasets captured under extremely low-light conditions, we present a new dataset with more than 12K video samples, named Extremely Low-Light condition Action Recognition (ELLAR). This dataset is constructed to reflect the characteristics of extremely low-light conditions where the visibility of videos is corrupted by overwhelming noise and blurs. ELLAR also covers a diverse range of dark settings within the scope of extremely low-light conditions. Furthermore, we propose a simple yet strong baseline method, leveraging a Mixture of Experts in gamma intensity correction, which enables models to be flexible and adaptive to a range of low illuminance levels. Our approach significantly surpasses state-of-the-art results by 3.39% top-1 accuracy on ELLAR dataset. 
@@ -20,7 +21,7 @@ You can download the ELLAR dataset from [here](http://gofile.me/7cPY4/TVPps3XL8)
 <img width="1151" alt="fig2" src="https://github.com/user-attachments/assets/cb30b116-e344-4df4-9e10-9d944aa9c5e1">
 
 
-## Model and experiments result
+## Model and experimental results
 
 The core idea of **DGAM(Dual Gamma Adaptive Modulation)** is its dual Mixture of Experts structure. This structure first identifies the characteristics of each sample and performs adaptive image enhancement that is optimal for action recognition. To this end, we designed a gating network named Adaptive Gamma Correction (AGC) that selects and applies the optimal GIC based on the illuminance information of the samples. Moreover, the matching classification head called Adaptive Head Selection (AHS) is selected to recognize features specific to the enhanced inputs. This dual mixture of expert systems allows the action recognition model to dynamically respond to inputs from diverse dark settings. 
 
