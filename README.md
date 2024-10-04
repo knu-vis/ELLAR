@@ -87,3 +87,11 @@ python tools/test.py configs/recognition/swin/hydra_config.py work_dirs/hydra_de
 ```
 python tools/train.py configs/recognition/swin/hydra_config.py --cfg-options load_from=workdirs/hydra_den/DGAM_ELLAR.pth model.backbone.use_checkpoint=True --validate
 ```
+
+
+## Citation
+If you find our work useful in your research, please cite:
+
+```
+[TBA]
+```
