@@ -97,5 +97,12 @@ python tools/train.py configs/recognition/swin/hydra_config.py --cfg-options loa
 If you find our work useful in your research, please cite:
 
 ```
-[TBA]
+@InProceedings{Ha_2024_ACCV,
+    author    = {Ha, Minse and Bae, Wan-Gi and Bae, Geunyoung and Lee, Jong Taek},
+    title     = {ELLAR: An Action Recognition Dataset for Extremely Low-Light Conditions with Dual Gamma Adaptive Modulation},
+    booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)},
+    month     = {December},
+    year      = {2024},
+    pages     = {800-817}
+}
 ```
