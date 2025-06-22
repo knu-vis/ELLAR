@@ -1,6 +1,6 @@
 # [ACCV 2024] ELLAR: An Action Recognition Dataset for Extremely Low-Light Conditions with Dual Gamma Adaptive Modulation
 
-By [Minse Ha](https://github.com/haminse/)<sup>★</sup>, [Wan-Gi Bae]([https://github.com/wangiid_TBA](https://www.notion.so/Wan-Gi-Bae-17858ea5167280c2abe9d8676a8a7715))<sup>★</sup>
+By [Minse Ha](https://github.com/haminse/)<sup>★</sup>, [Wan-Gi Bae]([[https://github.com/wangiid_TBA](https://www.notion.so/Wan-Gi-Bae-17858ea5167280c2abe9d8676a8a7715)])<sup>★</sup>
 , [Geunyoung Bae](https://github.com/flora101), and [Jong Taek Lee](https://scholar.google.com/citations?hl=en&user=NZ55Q-AAAAAJ)<sup>†</sup>.
 
 
